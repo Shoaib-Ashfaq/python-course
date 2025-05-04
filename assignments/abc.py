@@ -64,15 +64,31 @@
 #     print("🔔 Process ended.")
 
 
-import math as m
-from math import *
+# import math as m
+# from math import *
 
-print(dir())
+# print(dir())
 
-print(m.ceil(2.3))
+# print(m.ceil(2.3))
 
-print(m.factorial(5))
-print(floor(5))
-print(tau)
-print(e)
-print(inf)
+# print(m.factorial(5))
+# print(floor(5))
+# print(tau)
+# print(e)
+# print(inf)
+
+
+# import hello as h
+# import sys
+
+# print(mm.NAME)
+# print(mm.__cached__)
+# print(mm.printName("Hello"))
+# print(mm.sum(3,4))
+# print(sys.path)
+
+from packageDemo.package2.utils import *
+from packageDemo.package1.arithemetic import *
+
+
+print(add(3,4))
